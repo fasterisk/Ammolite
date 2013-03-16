@@ -1,0 +1,1 @@
+#define AL_DLL_EXPORT __declspec(dllexport)
