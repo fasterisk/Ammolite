@@ -8,6 +8,11 @@ namespace Ammolite
 	class AL_DLL_EXPORT Camera
 	{
 	public:
+		static Camera* CreateOrthogonal();
+		static Camera* CreateProjective();
+
+		void Delete();
+	private:
 		Camera();
 		~Camera();
 	};
